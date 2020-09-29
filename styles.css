@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Major Mono Display', monospace;
+
+}
+
+.container {
+  padding: 10%;
+  margin: 5% 0;
+  max-width: 1200px;
+  border: 5px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.digit {
+  display: inline-block;
+  font-size: 180px;
+}
+
+.redDigit {
+  color: red;
+}
+
+.button {
+  margin-top: 5rem;
+  font-size: 3rem;
+  border: 5px solid white;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  width: 176px;
+}
+
+.button:hover {
+  color: yellow;
+  border: 5px solid yellow;
+}
+
+.redButton {
+  color: red;
+  border: 5px solid red;
+}
+
